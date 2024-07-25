@@ -36,3 +36,37 @@ img {
     border-top: 1px solid #B1D7FE;
     border-bottom: 1px solid #B1D7FE;
 }
+/* When the screen is 1030 pixels or less apply the style within the curly brackets */
+@media(max-width:1030px){
+    h1{
+        background-color: red;
+    
+    }
+    h2{
+        color: red;
+
+    }
+    p{
+        font: size 120%;
+    }
+    .card_container{
+        align-items: center;
+        flex-direction: column;
+    }
+    .card{
+        width:50%
+        
+    }
+
+}
+@media(max-width:530px){
+    h1{
+        background-color:blue;
+    }
+    p{
+        font-size:150%
+    }
+    .card{
+        width:80%
+    }
+}
